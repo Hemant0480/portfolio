@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hemant Kumar | Full Stack & Backend Developer Portfolio</title>
+  <meta name="description" content="Personal Portfolio of Hemant Kumar - Final-Year B.Tech Student, MERN Stack Backend Developer Intern, and Data Analytics Enthusiast.">
+  <meta name="keywords" content="Hemant Kumar, Portfolio, Full Stack Developer, Backend Developer, Node.js, Express.js, MongoDB, React, Invertis University, Bareilly">
+  <meta name="author" content="Hemant Kumar">
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:title" content="Hemant Kumar | Personal Portfolio">
+  <meta property="og:description" content="Full Stack & Backend Developer | MERN Stack & Data Analytics">
+  <meta property="og:image" content="/images/profile.png">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts & FontAwesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <!-- Background Animated Gradient Orbs -->
+  <div class="bg-gradient-orb orb-1"></div>
+  <div class="bg-gradient-orb orb-2"></div>
+  <div class="bg-gradient-orb orb-3"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-accent">&lt;</span>Hemant<span class="logo-accent">/&gt;</span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link active"><i class="fa-solid fa-house"></i> Home</a></li>
+          <li><a href="#about" class="nav-link"><i class="fa-solid fa-user"></i> About</a></li>
+          <li><a href="#skills" class="nav-link"><i class="fa-solid fa-code"></i> Skills</a></li>
+          <li><a href="#experience" class="nav-link"><i class="fa-solid fa-briefcase"></i> Experience</a></li>
+          <li><a href="#projects" class="nav-link"><i class="fa-solid fa-folder-open"></i> Projects</a></li>
+          <li><a href="#achievements" class="nav-link"><i class="fa-solid fa-trophy"></i> Achievements</a></li>
+          <li><a href="#contact" class="nav-link"><i class="fa-solid fa-paper-plane"></i> Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+          <i class="fa-solid fa-moon moon-icon"></i>
+          <i class="fa-solid fa-sun sun-icon"></i>
+        </button>
+        <a href="#contact" class="btn btn-primary nav-cta"><i class="fa-solid fa-paper-plane"></i> Hire Me</a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle Navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="status-badge">
+            <span class="pulse-dot"></span> Available for Full-Time Roles & Internships
+          </div>
+          <h1 class="hero-greeting">Hi, I'm <span class="text-gradient">Hemant Kumar</span></h1>
+          <h2 class="hero-typing-container">
+            I am a <span class="typing-text" id="typing-text">Full Stack Developer</span><span class="cursor">|</span>
+          </h2>
+          <p class="hero-bio">
+            Final-Year B.Tech student at <strong>Invertis University (CGPA 7.86)</strong> with hands-on experience as a 
+            <strong>Backend Developer Intern</strong> (MERN Stack). Skilled in building scalable Express APIs, front-end 
+            interfaces, and data analytics dashboards.
+          </p>
+
+          <div class="hero-stats">
+            <div class="stat-card">
+              <span class="stat-number">7.86</span>
+              <span class="stat-label">B.Tech CGPA</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">MERN</span>
+              <span class="stat-label">Backend Intern</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">ICCT '25</span>
+              <span class="stat-label">Conference Speaker</span>
+            </div>
+          </div>
+
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-gradient"><i class="fa-solid fa-paper-plane"></i> Get In Touch</a>
+            <a href="#projects" class="btn btn-glass"><i class="fa-solid fa-eye"></i> View Projects</a>
+            <a href="/api/download-resume" class="btn btn-outline" download><i class="fa-solid fa-download"></i> Resume</a>
+          </div>
+
+          <div class="hero-socials">
+            <span class="social-label">Connect:</span>
+            <a href="https://linkedin.com/in/hemant-kumar-3a9175339" target="_blank" rel="noopener" class="social-icon" title="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/Hemant0480" target="_blank" rel="noopener" class="social-icon" title="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="mailto:hemantmishra8299@gmail.com" class="social-icon" title="Email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="tel:+918299027489" class="social-icon" title="Phone">
+              <i class="fa-solid fa-phone"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper">
+          <div class="image-frame-glow">
+            <img src="/images/profile.png" alt="Hemant Kumar Portrait" class="hero-profile-img">
+          </div>
+          <!-- Floating Tech Chips -->
+          <div class="tech-chip chip-1"><i class="fa-brands fa-node-js"></i> Node.js & Express</div>
+          <div class="tech-chip chip-2"><i class="fa-brands fa-js"></i> JavaScript ES6</div>
+          <div class="tech-chip chip-3"><i class="fa-solid fa-database"></i> MongoDB</div>
+          <div class="tech-chip chip-4"><i class="fa-solid fa-chart-pie"></i> Power BI</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Get To Know Me</span>
+          <h2 class="section-title">About <span class="text-gradient">Hemant Kumar</span></h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card main-about">
+            <div class="about-card-icon"><i class="fa-solid fa-user-gear"></i></div>
+            <h3>Professional Summary</h3>
+            <p>
+              I am a passionate, results-driven software developer completing my Bachelor of Technology degree at 
+              <strong>Invertis University (2023–2026, CGPA 7.86)</strong>. I bridge the gap between design ideas, clean client-side UIs, and robust backend microservices.
+            </p>
+            <p>
+              My hands-on experience includes a <strong>Backend Developer Internship at Techiguru.in</strong>, where I developed MERN stack features, designed secure MongoDB schemas, and resolved complex UI/backend bugs. Furthermore, I have real-world data analytics experience leveraging Power BI and DAX.
+            </p>
+            <p>
+              Beyond coding, I enjoy leading project teams, presenting technical research, and continuously mastering modern web frameworks.
+            </p>
+
+            <div class="about-highlights-grid">
+              <div class="highlight-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                  <strong>Location</strong>
+                  <span>Bareilly, Uttar Pradesh, India</span>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <div>
+                  <strong>Education</strong>
+                  <span>B.Tech CSE / IT (2023-2026)</span>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-envelope"></i>
+                <div>
+                  <strong>Email</strong>
+                  <span>hemantmishra8299@gmail.com</span>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-phone"></i>
+                <div>
+                  <strong>Phone</strong>
+                  <span>+91 8299027489</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-card philosophy-card">
+            <div class="about-card-icon"><i class="fa-solid fa-bullseye"></i></div>
+            <h3>My Core Philosophy</h3>
+            <div class="philosophy-list">
+              <div class="philosophy-item">
+                <div class="ph-num">01</div>
+                <div>
+                  <h4>Scalable Backend Architecture</h4>
+                  <p>Building clean, RESTful APIs and structured databases for high reliability and security.</p>
+                </div>
+              </div>
+              <div class="philosophy-item">
+                <div class="ph-num">02</div>
+                <div>
+                  <h4>Responsive & Reusable Code</h4>
+                  <p>Crafting intuitive interfaces that deliver seamless performance across all screen sizes.</p>
+                </div>
+              </div>
+              <div class="philosophy-item">
+                <div class="ph-num">03</div>
+                <div>
+                  <h4>Data-Driven Insights</h4>
+                  <p>Transforming complex datasets into clear visual dashboards to guide smart decisions.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Technical Expertise</span>
+          <h2 class="section-title">Skills & <span class="text-gradient">Technologies</span></h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="skills-filter-buttons">
+          <button class="filter-btn active" data-filter="all">All Skills</button>
+          <button class="filter-btn" data-filter="backend">Backend & DB</button>
+          <button class="filter-btn" data-filter="frontend">Frontend Stack</button>
+          <button class="filter-btn" data-filter="data">Data Analytics</button>
+          <button class="filter-btn" data-filter="tools">Tools & IDEs</button>
+        </div>
+
+        <div class="skills-grid" id="skills-container">
+          <!-- Dynamically Rendered / Pre-rendered for fallback -->
+          <div class="skill-card" data-category="backend">
+            <div class="skill-header">
+              <div class="skill-icon"><i class="fa-brands fa-node-js"></i></div>
+              <div class="skill-info">
+                <h4>Node.js & Express.js</h4>
+                <span class="skill-category-badge">Backend Framework</span>
+              </div>
+              <span class="skill-percent">88%</span>
+            </div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 88%"></div></div>
+          </div>
+
+          <div class="skill-card" data-category="frontend">
+            <div class="skill-header">
+              <div class="skill-icon"><i class="fa-brands fa-js"></i></div>
+              <div class="skill-info">
+                <h4>JavaScript (ES6+)</h4>
+                <span class="skill-category-badge">Programming</span>
+              </div>
+              <span class="skill-percent">90%</span>
+            </div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 90%"></div></div>
+          </div>
+
+          <div class="skill-card" data-category="frontend">
+            <div class="skill-header">
+              <div class="skill-icon"><i class="fa-brands fa-html5"></i></div>
+              <div class="skill-info">
+                <h4>HTML5 & CSS3</h4>
+                <span class="skill-category-badge">Web Design</span>
+              </div>
+              <span class="skill-percent">92%</span>
+            </div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 92%"></div></div>
+          </div>
+
+          <div class="skill-card" data-category="backend">
+            <div class="skill-header">
+              <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
+              <div class="skill-info">
+                <h4>MongoDB</h4>
+                <span class="skill-category-badge">NoSQL Database</span>
+              </div>
+              <span class="skill-percent">82%</span>
+            </div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 82%"></div></div>
+          </div>
+
+          <div class="skill-card" data-category="data">
+            <div class="skill-header">
+              <div class="skill-icon"><i class="fa-solid fa-chart-pie"></i></div>
+              <div class="skill-info">
+                <h4>Power BI & DAX</h4>
+                <span class="skill-category-badge">Analytics</span>
+              </div>
+              <span class="skill-percent">78%</span>
+            </div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 78%"></div></div>
+          </div>
+
+          <div class="skill-card" data-category="frontend">
+            <div class="skill-header">
+              <div class="skill-icon"><i class="fa-brands fa-react"></i></div>
+              <div class="skill-info">
+                <h4>React.js</h4>
+                <span class="skill-category-badge">Frontend Library</span>
+              </div>
+              <span class="skill-percent">80%</span>
+            </div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 80%"></div></div>
+          </div>
+
+          <div class="skill-card" data-category="tools">
+            <div class="skill-header">
+              <div class="skill-icon"><i class="fa-brands fa-github"></i></div>
+              <div class="skill-info">
+                <h4>Git & GitHub</h4>
+                <span class="skill-category-badge">Version Control</span>
+              </div>
+              <span class="skill-percent">85%</span>
+            </div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 85%"></div></div>
+          </div>
+
+          <div class="skill-card" data-category="data">
+            <div class="skill-header">
+              <div class="skill-icon"><i class="fa-brands fa-python"></i></div>
+              <div class="skill-info">
+                <h4>Python</h4>
+                <span class="skill-category-badge">Programming</span>
+              </div>
+              <span class="skill-percent">75%</span>
+            </div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 75%"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Work History</span>
+          <h2 class="section-title">Internship <span class="text-gradient">Experience</span></h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="experience-timeline">
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div class="company-badge">
+                <i class="fa-solid fa-laptop-code"></i>
+              </div>
+              <div class="timeline-title-group">
+                <h3>Backend Developer Intern</h3>
+                <h4><a href="https://techiguru.in" target="_blank" rel="noopener">techiguru.in</a></h4>
+              </div>
+              <div class="timeline-period">
+                <span class="badge badge-primary"><i class="fa-regular fa-calendar"></i> Recent Internship</span>
+              </div>
+            </div>
+
+            <div class="timeline-body">
+              <ul class="timeline-bullets">
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  <span><strong>Developed and Maintained Web Applications:</strong> Built scalable web solutions using MongoDB, Express.js, React, and Node.js (MERN stack) to improve platform functionality and user experience.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  <span><strong>Database Management:</strong> Designed and optimized NoSQL database schemas in MongoDB to ensure secure, structured data storage and ultra-fast retrieval.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  <span><strong>Bug Fixing & Testing:</strong> Identified, debugged, and resolved front-end glitches and backend API issues to deliver a seamless user experience.</span>
+                </li>
+              </ul>
+
+              <div class="timeline-tags">
+                <span class="tag">Node.js</span>
+                <span class="tag">Express.js</span>
+                <span class="tag">MongoDB</span>
+                <span class="tag">React.js</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">RESTful API</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Featured Portfolio Work</span>
+          <h2 class="section-title">Highlighted <span class="text-gradient">Projects</span></h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="projects-grid" id="projects-container">
+          <!-- Myntra Clone Project Card -->
+          <div class="project-card">
+            <div class="project-img-wrapper">
+              <img src="/images/myntra_clone.png" alt="Myntra Clone Preview" class="project-img">
+              <div class="project-overlay">
+                <button class="btn btn-sm btn-gradient open-modal-btn" data-project="myntra-clone">
+                  <i class="fa-solid fa-circle-info"></i> Project Details
+                </button>
+                <a href="https://github.com/Hemant0480/nm.git" target="_blank" rel="noopener" class="btn btn-sm btn-glass">
+                  <i class="fa-brands fa-github"></i> GitHub Code
+                </a>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <span class="project-category"><i class="fa-solid fa-laptop"></i> Frontend Project</span>
+              <h3 class="project-title">Myntra E-Commerce Clone</h3>
+              <p class="project-desc">
+                Developed a responsive e-commerce homepage inspired by Myntra using semantic HTML5, modern CSS Flexbox layout, and JavaScript DOM manipulation.
+              </p>
+
+              <div class="project-tech-list">
+                <span class="tech-badge">HTML5</span>
+                <span class="tech-badge">CSS3</span>
+                <span class="tech-badge">JavaScript (ES6)</span>
+                <span class="tech-badge">Flexbox</span>
+                <span class="tech-badge">DevTools</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- MERN Stack Application Project Card -->
+          <div class="project-card">
+            <div class="project-img-wrapper">
+              <img src="/images/myntra_clone.png" alt="MERN App Preview" class="project-img">
+              <div class="project-overlay">
+                <button class="btn btn-sm btn-gradient open-modal-btn" data-project="mern-backend">
+                  <i class="fa-solid fa-circle-info"></i> Project Details
+                </button>
+                <a href="https://github.com/Hemant0480" target="_blank" rel="noopener" class="btn btn-sm btn-glass">
+                  <i class="fa-brands fa-github"></i> GitHub Code
+                </a>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <span class="project-category"><i class="fa-solid fa-server"></i> MERN Stack / Backend</span>
+              <h3 class="project-title">MERN Stack Web Platform</h3>
+              <p class="project-desc">
+                Built scalable web application endpoints during techiguru.in internship featuring secure MongoDB schemas, Express backend routing, and React front-end integration.
+              </p>
+
+              <div class="project-tech-list">
+                <span class="tech-badge">Node.js</span>
+                <span class="tech-badge">Express.js</span>
+                <span class="tech-badge">MongoDB</span>
+                <span class="tech-badge">React.js</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Power BI Analytics Card -->
+          <div class="project-card">
+            <div class="project-img-wrapper">
+              <img src="/images/myntra_clone.png" alt="Power BI Dashboard" class="project-img">
+              <div class="project-overlay">
+                <button class="btn btn-sm btn-gradient open-modal-btn" data-project="powerbi-analytics">
+                  <i class="fa-solid fa-circle-info"></i> Project Details
+                </button>
+                <a href="https://github.com/Hemant0480" target="_blank" rel="noopener" class="btn btn-sm btn-glass">
+                  <i class="fa-brands fa-github"></i> View Analytics
+                </a>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <span class="project-category"><i class="fa-solid fa-chart-line"></i> Data Analytics</span>
+              <h3 class="project-title">Sales & Business Analytics Dashboard</h3>
+              <p class="project-desc">
+                Interactive data analytics project leveraging Power BI and custom DAX measures to transform raw business data into actionable executive insights.
+              </p>
+
+              <div class="project-tech-list">
+                <span class="tech-badge">Power BI</span>
+                <span class="tech-badge">DAX</span>
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">Data Viz</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS & LEADERSHIP SECTION -->
+    <section class="section achievements-section" id="achievements">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Recognition & Honors</span>
+          <h2 class="section-title">Leadership & <span class="text-gradient">Achievements</span></h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="achievements-grid">
+          <div class="achievement-card spotlight-card">
+            <div class="achieve-badge"><i class="fa-solid fa-award"></i> International Conference</div>
+            <div class="achieve-icon"><i class="fa-solid fa-brain"></i></div>
+            <h3>Presented at ICCT-2025</h3>
+            <p class="achieve-event">ICCT-2025 International Conference</p>
+            <p class="achieve-topic">
+              Presented paper on <strong>“Neuralink: Elon Musk’s Vision to Merge Mind and Machine”</strong>, exploring neural interfaces and bio-tech integration.
+            </p>
+          </div>
+
+          <div class="achievement-card">
+            <div class="achieve-badge"><i class="fa-solid fa-users-gear"></i> Leadership</div>
+            <div class="achieve-icon"><i class="fa-solid fa-user-group"></i></div>
+            <h3>College Project Team Lead</h3>
+            <p class="achieve-event">Academic & Technical Projects</p>
+            <p>
+              Managed student development teams of 3–5 members, delegating front-end/back-end tasks, code reviews, and architecture decisions.
+            </p>
+          </div>
+
+          <div class="achievement-card">
+            <div class="achieve-badge"><i class="fa-solid fa-star"></i> Academic Award</div>
+            <div class="achieve-icon"><i class="fa-solid fa-medal"></i></div>
+            <h3>Best Project Presentation</h3>
+            <p class="achieve-event">Invertis University Academics</p>
+            <p>
+              Awarded Best Project Presentation during academics for exceptional clarity, live demonstration, and code structure.
+            </p>
+          </div>
+        </div>
+
+        <!-- EDUCATION & CERTIFICATIONS DUAL CARDS -->
+        <div class="edu-cert-wrapper">
+          <div class="edu-column">
+            <h3 class="column-title"><i class="fa-solid fa-graduation-cap"></i> Education Timeline</h3>
+            <div class="edu-list">
+              <div class="edu-item">
+                <span class="edu-year">2023 – 2026</span>
+                <h4>Bachelor of Technology (B.Tech)</h4>
+                <p class="edu-place">Invertis University | <strong>CGPA: 7.86</strong></p>
+              </div>
+              <div class="edu-item">
+                <span class="edu-year">2023</span>
+                <h4>Class 12 (Senior Secondary)</h4>
+                <p class="edu-place">UP Board | Science Stream</p>
+              </div>
+              <div class="edu-item">
+                <span class="edu-year">2021</span>
+                <h4>Class 10 (Secondary)</h4>
+                <p class="edu-place">UP Board | <strong>74%</strong></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="cert-column">
+            <h3 class="column-title"><i class="fa-solid fa-certificate"></i> Verified Certifications</h3>
+            <div class="cert-list">
+              <div class="cert-item">
+                <div class="cert-icon"><i class="fa-brands fa-python"></i></div>
+                <div>
+                  <h4>Python 101 for Data Science</h4>
+                  <p>CognitiveClass.ai (IBM) | <small>Feb 2025</small></p>
+                </div>
+              </div>
+              <div class="cert-item">
+                <div class="cert-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                <div>
+                  <h4>Full Stack Web Developer</h4>
+                  <p>LinkedIn Learning</p>
+                </div>
+              </div>
+              <div class="cert-item">
+                <div class="cert-icon"><i class="fa-brands fa-node-js"></i></div>
+                <div>
+                  <h4>Backend Development</h4>
+                  <p>Techiguru.in Portal</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Let's Connect</span>
+          <h2 class="section-title">Get In <span class="text-gradient">Touch</span></h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="contact-wrapper">
+          <!-- Left Column Info -->
+          <div class="contact-info-card">
+            <h3>Contact Information</h3>
+            <p>Feel free to reach out for software engineering opportunities, internships, project collaborations, or tech discussions!</p>
+
+            <div class="contact-details-list">
+              <div class="contact-detail-item">
+                <div class="detail-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div>
+                  <span>Email Me</span>
+                  <a href="mailto:hemantmishra8299@gmail.com">hemantmishra8299@gmail.com</a>
+                </div>
+              </div>
+
+              <div class="contact-detail-item">
+                <div class="detail-icon"><i class="fa-solid fa-phone"></i></div>
+                <div>
+                  <span>Call / WhatsApp</span>
+                  <a href="tel:+918299027489">+91 8299027489</a>
+                </div>
+              </div>
+
+              <div class="contact-detail-item">
+                <div class="detail-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div>
+                  <span>Location</span>
+                  <p>Bareilly, Uttar Pradesh, India</p>
+                </div>
+              </div>
+
+              <div class="contact-detail-item">
+                <div class="detail-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                <div>
+                  <span>LinkedIn</span>
+                  <a href="https://linkedin.com/in/hemant-kumar-3a9175339" target="_blank" rel="noopener">linkedin.com/in/hemant-kumar</a>
+                </div>
+              </div>
+
+              <div class="contact-detail-item">
+                <div class="detail-icon"><i class="fa-brands fa-github"></i></div>
+                <div>
+                  <span>GitHub</span>
+                  <a href="https://github.com/Hemant0480" target="_blank" rel="noopener">github.com/Hemant0480</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column Form -->
+          <div class="contact-form-card">
+            <h3>Send Me a Message</h3>
+            <form id="contact-form" class="contact-form">
+              <div class="form-group">
+                <label for="name">Your Name <span class="required">*</span></label>
+                <div class="input-icon-wrapper">
+                  <i class="fa-solid fa-user"></i>
+                  <input type="text" id="name" name="name" placeholder="John Doe" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Your Email Address <span class="required">*</span></label>
+                <div class="input-icon-wrapper">
+                  <i class="fa-solid fa-envelope"></i>
+                  <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <div class="input-icon-wrapper">
+                  <i class="fa-solid fa-tag"></i>
+                  <input type="text" id="subject" name="subject" placeholder="Project Opportunity / Inquiry">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message <span class="required">*</span></label>
+                <div class="input-icon-wrapper textarea-wrapper">
+                  <i class="fa-solid fa-comment-dots"></i>
+                  <textarea id="message" name="message" rows="5" placeholder="Hi Hemant, I would like to discuss..." required></textarea>
+                </div>
+              </div>
+
+              <button type="submit" id="submit-btn" class="btn btn-gradient btn-full">
+                <span class="btn-text"><i class="fa-solid fa-paper-plane"></i> Send Message</span>
+                <span class="btn-spinner hidden"><i class="fa-solid fa-circle-notch fa-spin"></i> Sending...</span>
+              </button>
+            </form>
+
+            <div id="form-response" class="form-response hidden"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- PROJECT DETAILS MODAL -->
+  <div class="modal-overlay" id="project-modal">
+    <div class="modal-card">
+      <button class="modal-close" id="modal-close" aria-label="Close Modal">&times;</button>
+      <div class="modal-body" id="modal-body">
+        <!-- Dynamic content injected by main.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION CONTAINER -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#hero" class="footer-logo">Hemant Kumar</a>
+        <p>Full Stack & Backend Developer | MERN Stack </p>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year">2026</span> Hemant Kumar. All rights reserved.</p>
+        
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="/js/main.js"></script>
+</body>
+</html>

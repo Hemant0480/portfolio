@@ -1,0 +1,24 @@
+{
+  "name": "hemant-kumar-portfolio",
+  "version": "1.0.0",
+  "description": "Personal Portfolio Website for Hemant Kumar - Built with HTML, CSS, JavaScript, Node.js, and Express.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "portfolio",
+    "express",
+    "nodejs",
+    "javascript",
+    "fullstack",
+    "backend"
+  ],
+  "author": "Hemant Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}

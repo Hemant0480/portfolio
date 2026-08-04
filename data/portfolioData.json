@@ -1,0 +1,159 @@
+{
+  "personal": {
+    "name": "Hemant Kumar",
+    "title": "Full Stack & Backend Developer",
+    "subtitle": "Final-Year B.Tech Student | MERN Stack Developer | Data Analytics Enthusiast",
+    "location": "Bareilly, Uttar Pradesh, India",
+    "phone": "+91 8299027489",
+    "email": "hemantmishra8299@gmail.com",
+    "linkedin": "https://linkedin.com/in/hemant-kumar-3a9175339",
+    "github": "https://github.com/Hemant0480",
+    "summary": "Final-year B.Tech student at Invertis University (CGPA 7.86) with hands-on experience in full-stack web development (Node.js, Express.js, JavaScript, HTML/CSS) and backend database management (MongoDB). Skilled in building responsive user interfaces, developing scalable REST APIs, and performing data analytics using Power BI & DAX. Proven leader with international conference presentation experience.",
+    "availability": "Available for Full-time Roles & Internships"
+  },
+  "education": [
+    {
+      "degree": "Bachelor of Technology (B.Tech)",
+      "institution": "Invertis University",
+      "period": "2023 – 2026",
+      "grade": "CGPA: 7.86",
+      "details": "Focused on Software Engineering, Web Technologies, Database Systems, and Data Analytics."
+    },
+    {
+      "degree": "Class 12 (Senior Secondary)",
+      "institution": "UP Board",
+      "period": "2023",
+      "grade": "Completed",
+      "details": "Science & Mathematics Stream."
+    },
+    {
+      "degree": "Class 10 (Secondary)",
+      "institution": "UP Board",
+      "period": "2021",
+      "grade": "74%",
+      "details": "Core Secondary Curriculum."
+    }
+  ],
+  "experience": [
+    {
+      "role": "Backend Developer Intern",
+      "company": "Techiguru.in",
+      "location": "Remote / Hybrid",
+      "period": "Recent Internship",
+      "points": [
+        "Built scalable web solutions using MongoDB, Express.js, React, and Node.js (MERN stack) to improve platform functionality and user experience.",
+        "Optimized database schemas in MongoDB to ensure secure and structured data storage and fast retrieval.",
+        "Identified, debugged, and resolved front-end glitches and UI issues to deliver a seamless user experience."
+      ],
+      "technologies": ["Node.js", "Express.js", "MongoDB", "React.js", "JavaScript", "REST API"]
+    }
+  ],
+  "skills": [
+    { "name": "Node.js & Express.js", "category": "backend", "level": 88, "icon": "fa-brands fa-node-js" },
+    { "name": "JavaScript (ES6+)", "category": "frontend", "level": 90, "icon": "fa-brands fa-js" },
+    { "name": "HTML5 & CSS3", "category": "frontend", "level": 92, "icon": "fa-brands fa-html5" },
+    { "name": "MongoDB", "category": "database", "level": 82, "icon": "fa-solid fa-database" },
+    { "name": "Python", "category": "programming", "level": 75, "icon": "fa-brands fa-python" },
+    { "name": "React.js", "category": "frontend", "level": 80, "icon": "fa-brands fa-react" },
+    { "name": "Power BI & DAX", "category": "data", "level": 78, "icon": "fa-solid fa-chart-pie" },
+    { "name": "Git & GitHub", "category": "tools", "level": 85, "icon": "fa-brands fa-github" },
+    { "name": "VS Code & DevTools", "category": "tools", "level": 90, "icon": "fa-solid fa-code" },
+    { "name": "C / Java", "category": "programming", "level": 70, "icon": "fa-solid fa-laptop-code" },
+    { "name": "Jupyter Notebook", "category": "data", "level": 80, "icon": "fa-solid fa-book-open" }
+  ],
+  "projects": [
+    {
+      "id": "myntra-clone",
+      "title": "Myntra E-Commerce Clone",
+      "category": "Frontend Development",
+      "image": "/images/myntra_clone.jpg",
+      "summary": "Responsive e-commerce homepage inspired by Myntra built with semantic HTML5, modern CSS Flexbox layout, and interactive JavaScript DOM manipulation.",
+      "tools": ["HTML5", "CSS3", "JavaScript (ES6)", "Chrome DevTools", "Flexbox"],
+      "highlights": [
+        "Designed responsive grid and navbar search UI matching real-world e-commerce standards.",
+        "Implemented interactive filtering, product cards, and dynamic UI states using Vanilla JS.",
+        "Tested across mobile, tablet, and desktop viewports using Chrome DevTools."
+      ],
+      "keyLearnings": [
+        "Mastery of modern responsive CSS Flexbox layout.",
+        "Advanced DOM manipulation and event handling in JavaScript.",
+        "Clean, reusable, modular front-end architecture."
+      ],
+      "github": "https://github.com/Hemant0480/nm.git"
+    },
+    {
+      "id": "mern-backend",
+      "title": "MERN Stack Web Application",
+      "category": "Full Stack / Backend",
+      "image": "/images/myntra_clone.jpg",
+      "summary": "Scalable web solution built during Techiguru.in internship featuring secure MongoDB schemas, Express backend routes, and React front-end integration.",
+      "tools": ["Node.js", "Express.js", "MongoDB", "React.js", "REST API"],
+      "highlights": [
+        "Designed structured NoSQL document models for fast data retrieval.",
+        "Created RESTful endpoints for CRUD operations and user actions.",
+        "Fixed UI bugs and optimized client-server request handling."
+      ],
+      "keyLearnings": [
+        "Backend architecture design in Express.js.",
+        "Database query optimization in MongoDB.",
+        "Full-stack MERN integration patterns."
+      ],
+      "github": "https://github.com/Hemant0480"
+    },
+    {
+      "id": "powerbi-analytics",
+      "title": "Sales & Business Data Dashboard",
+      "category": "Data Analytics",
+      "image": "/images/myntra_clone.jpg",
+      "summary": "Real-world data analytics project using Power BI and DAX queries to turn raw business data into actionable visual insights.",
+      "tools": ["Power BI", "DAX", "Python", "Data Visualization"],
+      "highlights": [
+        "Cleaned and transformed complex datasets using Python and Power Query.",
+        "Authored custom DAX measures for real-time KPI tracking.",
+        "Built executive interactive dashboard reports."
+      ],
+      "keyLearnings": [
+        "DAX formula formulation and performance tuning.",
+        "Data storytelling and dashboard design principles."
+      ],
+      "github": "https://github.com/Hemant0480"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "ICCT-2025 International Conference Presenter",
+      "description": "Presented research at the ICCT-2025 International Conference on 'Neuralink: Elon Musk's Vision to Merge Mind and Machine.'",
+      "badge": "International Conference"
+    },
+    {
+      "title": "Best Project Presentation Award",
+      "description": "Awarded Best Project Presentation during academics at Invertis University for outstanding technical delivery and demonstration.",
+      "badge": "Academic Award"
+    },
+    {
+      "title": "Academic Project Team Lead",
+      "description": "Led student project teams of 3–5 members, directing architecture, sprint planning, and front-end/back-end execution.",
+      "badge": "Leadership"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Python 101 for Data Science",
+      "issuer": "CognitiveClass.ai (IBM)",
+      "date": "Feb 2025",
+      "icon": "fa-brands fa-python"
+    },
+    {
+      "title": "Full Stack Web Developer",
+      "issuer": "LinkedIn Learning",
+      "date": "2024",
+      "icon": "fa-solid fa-code"
+    },
+    {
+      "title": "Backend Development",
+      "issuer": "Techiguru.in Portal",
+      "date": "2024",
+      "icon": "fa-brands fa-node-js"
+    }
+  ]
+}
