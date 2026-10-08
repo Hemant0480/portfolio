@@ -43,9 +43,23 @@ app.get('/api/all', (req, res) => {
 // =========================================================================
 // ROUTE 2: GET /api/projects - Fetch project list or single project details
 // =========================================================================
+app.get('/api/projects', (req, res) => {
+  const data = loadData();
+  const projects = data.projects || [];
+  const { id } = req.query;
 
+  if (id) {
+    const project = projects.find(p => p.id === id);
+    if (project) {
+      return res.json({ success: true, project: project });
+    } else {
+      return res.status(404).json({ success: false, message: 'Project not found' });
+    }
+  }
 
-// =========================================================================
+  res.json({ success: true, projects: projects });
+});
+
 // ROUTE 3: POST /api/contact - Receive and save contact form messages
 // =========================================================================
 app.post('/api/contact', (req, res) => {

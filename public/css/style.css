@@ -690,7 +690,6 @@ img {
   transition: all var(--transition-fast);
 }
 .skill-card:hover {
-  transform: translateY(-50px 0 0);
   transform: translateY(-4px);
   border-color: var(--accent-cyan);
   box-shadow: var(--shadow-md);
